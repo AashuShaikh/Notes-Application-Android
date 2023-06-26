@@ -7,23 +7,23 @@ easily interact with the underlying database. It offers a set of annotations tha
 entities, and database classes to define the database schema and perform CRUD (create, read, update, delete) operations.
 
 <figure>
-<img width="328" alt="Screenshot 2023-06-26 at 21 49 57" src="https://github.com/AashuShaikh/Notes-Application-Android/assets/117594152/ad5316cc-c764-47b4-9383-5d8403b6975b">
+<img width="328" alt="Screenshot 2023-06-26 at 21 49 57" src="https://github.com/AashuShaikh/Notes-Application-Android/assets/117594152/ad5316cc-c764-47b4-9383-5d8403b6975b" style="display: block; margin: 0 auto;">
   <br>
-<figcaption>Fig.1 - Creating a New Note</figcaption>
+<figcaption style="text-align: center;>Fig.1 - Creating a New Note</figcaption>
 </figure>
 clicking on the SAVE button the note will be added to the database.
 
 <figure>
-<img width="323" alt="Screenshot 2023-06-26 at 21 52 37" src="https://github.com/AashuShaikh/Notes-Application-Android/assets/117594152/69978d45-86d5-4c02-8a5b-e51e09a20e09">
+<img width="323" alt="Screenshot 2023-06-26 at 21 52 37" src="https://github.com/AashuShaikh/Notes-Application-Android/assets/117594152/69978d45-86d5-4c02-8a5b-e51e09a20e09" style="display: block; margin: 0 auto;">
   <br>
-<figcaption>Fig.2 - Displaying all Notes</figcaption>
+<figcaption style="text-align: center;>Fig.2 - Displaying all Notes</figcaption>
 </figure>
 When we click on the '+' icon then we can create a new note
 We can also search any note in the app.
 
 <figure>
-<img width="336" alt="Screenshot 2023-06-26 at 21 53 48" src="https://github.com/AashuShaikh/Notes-Application-Android/assets/117594152/9ee822cd-d1bc-437e-ab29-2e110688e421">
+<img width="336" alt="Screenshot 2023-06-26 at 21 53 48" src="https://github.com/AashuShaikh/Notes-Application-Android/assets/117594152/9ee822cd-d1bc-437e-ab29-2e110688e421" style="display: block; margin: 0 auto;">
   <br>
-<figcaption>Fig.2 - Updation And Deletion(1)</figcaption>
+<figcaption style="text-align: center;>Fig.3 - Updation And Deletion (1)</figcaption>
 </figure>
 by clicking on '✔' icon we can update the note and by clicking on the 'delete' icon in menu, we can delete the Note.
