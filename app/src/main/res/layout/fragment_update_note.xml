@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="fragments.UpdateNoteFragment">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <EditText
+                        android:id="@+id/etNoteTitleUpdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="Enter Title here"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etNoteBodyUpdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:gravity="start|top"
+                        android:hint="Type something..."
+                        android:inputType="textMultiLine"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/fabDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="32dp"
+            android:layout_marginEnd="32dp"
+            app:icon="@drawable/ic_done"
+            app:iconTint="@color/black"
+            app:iconSize="35sp"
+            android:backgroundTint="@color/white"
+            app:strokeWidth="3dp"
+            app:strokeColor="@color/black"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+<!--<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--android:id="@+id/fabDone"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:backgroundTint="@color/material_dynamic_neutral_variant100"-->
+<!--app:icon="@drawable/ic_done"-->
+<!--app:iconSize="35dp"-->
+<!--app:iconTint="@color/material_dynamic_neutral0"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintHorizontal_bias="0.9"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="parent"-->
+<!--app:layout_constraintVertical_bias="0.9"-->
+<!--app:strokeWidth="3dp"-->
+<!--app:strokeColor="@color/material_dynamic_neutral0"-->
+<!--app:colorScheme="@color/material_dynamic_neutral0"-->
+<!--android:contentDescription="Add"-->
+<!--tools:ignore="HardcodedText"-->
+<!--    />-->
+
+<!--<Button-->
+<!--android:id="@+id/fabDone"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="Done"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintHorizontal_bias="0.9"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="parent"-->
+<!--app:layout_constraintVertical_bias="0.9"/>-->

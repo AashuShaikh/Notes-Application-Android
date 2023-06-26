@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="fragments.HomeFragment">
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/fabAddNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="32dp"
+            android:layout_marginEnd="32dp"
+            app:icon="@drawable/ic_add"
+            app:iconTint="@color/black"
+            app:iconSize="35sp"
+            android:backgroundTint="@color/white"
+            app:strokeWidth="3dp"
+            app:strokeColor="@color/black"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:backgroundTint="@color/white"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintBottom_toTopOf="@id/fabAddNote"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/fab_border"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="50dp"
+                android:text="No Notes Available!!"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="5dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+<!--<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--android:id="@+id/fabAddNote"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:backgroundTint="@color/material_dynamic_neutral_variant100"-->
+<!--app:icon="@drawable/ic_add"-->
+<!--app:iconSize="35dp"-->
+<!--app:iconTint="@color/material_dynamic_neutral0"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintHorizontal_bias="0.9"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="parent"-->
+<!--app:layout_constraintVertical_bias="0.9"-->
+<!--app:strokeWidth="3dp"-->
+<!--app:strokeColor="@color/material_dynamic_neutral0"-->
+<!--app:colorScheme="@color/material_dynamic_neutral0"-->
+<!--android:contentDescription="Add"-->
+<!--tools:ignore="HardcodedText" />-->
+
+<!--<Button-->
+<!--android:id="@+id/fabAddNote"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginStart="88dp"-->
+<!--android:layout_marginTop="272dp"-->
+<!--android:text="add"-->
+<!--android:src="@drawable/ic_add"-->
+<!--android:layout_marginEnd="32dp"-->
+<!--android:layout_marginBottom="32dp"-->
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintEnd_toEndOf="parent"/>-->

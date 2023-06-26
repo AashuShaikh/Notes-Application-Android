@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" /> <!-- Transparent background -->
+            <corners android:radius="8dp" /> <!-- Replace with the same corner radius as cardCornerRadius in CardView -->
+            <stroke
+                android:color="#000000"
+                android:width="5dp" /> <!-- Replace with your desired border width -->
+        </shape>
+    </item>
+</layer-list>
